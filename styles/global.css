@@ -1,5 +1,5 @@
 *, 
-*::before
+*::before,
 *::after {
   box-sizing: border-box;
 }
@@ -22,7 +22,7 @@
   --brand-color-primary: #F7B733;
   --brand-color-secondary: #FC4A1A; 
 
-  --ff-sans: 'inter', system-ui, sans-serif;
+  --ff-sans: 'Inter', system-ui, sans-serif;
   /*font weight*/
   --fw-base: 400;
   --fw-md: 500;
@@ -58,7 +58,7 @@ h1, h2, h3 {
   line-height: 1.2;
   color: var(--text-color-primary);
   font-weight: var(--fw-bold);
-  letter-spacing: -0.04em;
+  letter-spacing: -0.04rem;
 }
 
 h1 {
@@ -90,7 +90,7 @@ a:hover {
   color: transparent;
 }
 
-ul [role="list"] {
+ul[role='list'] {
   list-style: none;
 }
 
